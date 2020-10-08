@@ -1,0 +1,32 @@
+.post {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 10%;
+}
+.blog-post-image {
+  max-width: 400px;
+}
+.blog-post-author {
+  display: flex;
+  flex-direction: row;
+  padding-left: 10%;
+}
+.author-image {
+  max-width: 150px;
+}
+.author-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  margin: 10px 10px;
+  color: cornflowerblue;
+  font-size: 24;
+}
+.sub-form {
+  display: flex;
+  padding-left: 60%;
+}
+.post > h1 {
+  font-size: 32px;
+}
